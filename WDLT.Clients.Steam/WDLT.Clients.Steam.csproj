@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Vladyslav Prokhorchuk</Authors>
+    <Company>Vladyslav Prokhorchuk</Company>
+    <Description>STEAM Client</Description>
+    <Copyright>Copyright © Vladyslav Prokhorchuk 2021</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/waidelotte/WDLT.Clients.Steam</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/waidelotte/WDLT.Clients.Steam</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.32" />
+    <PackageReference Include="WDLT.Clients.Base" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
